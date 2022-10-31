@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(.././images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 8px 30px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.content1 {
+    flex: 50%;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+.content1 img {
+    width: 55%;
+    margin-left: 25%;
+
+}
+
+.content-design {
+    width: 550px;
+    top: 200px;
+    left: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.content-right {
+    margin-top: 30px;
+}
+
+.content1 p {
+    color: rgb(253, 132, 33);
+    font-size: large;
+}
+
+.content1 h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.content1 h1+p {
+    color: #fff;
+}
+
+.content1 button {
+    background-color: rgb(0, 185, 185);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+}
+
+.content1 button:hover {
+    cursor: pointer;
+}
+
+/* Next Section */
+
+.middle {
+    min-height: 100vh;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content2 {
+    flex: 45%;
+    position: relative;
+    z-index: 1;
+}
+
+.content2-left img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.circle {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    font-size: 30px;
+    position: absolute;
+    top: 230px;
+    left: 525px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content2-right-p {
+    font-size: 20px;
+    color: rgb(253, 132, 33);
+}
+
+.content2-right h1 {
+    font-size: 50px;
+    color: black
+}
+
+.content2-right-p1 {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.content2-right-p2 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    color: black;
+
+}
+
+.content2-right img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.about-row {
+    display: flex;
+    margin: 50px 100px;
+}
+
+.box-col {
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+}
+
+.box-col h3 {
+    margin: 20px;
+}
+
+
+/* Next Section */
+
+.bottom {
+    background-color: rgba(255, 224, 210, 0.562);
+    text-align: center;
+}
+
+.feature {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: rgb(253, 132, 33);
+}
+
+.feature-row {
+    display: flex;
+    margin: 60px 100px;
+}
+
+.feature-col {
+    flex-basis: 32%;
+    padding: 50px;
+}
+
+.feature-col img {
+    width: 100%;
+}
+
+.feature-title {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+
+.feature-title h3 {
+    font-size: 17px;
+}
+
+.feature-title p {
+    font-size: 14px;
+}
+
+/* Next Section */
+.join {
+    display: flex;
+}
+
+.join-half {
+    flex: 50%
+}
+
+.join-left img {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.join-p {
+    color: rgb(253, 93, 18);
+}
+
+.join-p2 {
+    margin-top: 30px;
+}
+
+.join-right button {
+    background-color: #fff;
+    border: 3px solid rgb(253, 93, 18);
+    border-radius: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+}
+
+.testimonial {
+    display: flex;
+}
+
+.testimonial-left {
+    flex: 30%;
+}
+
+.testimonial-middle {
+    flex: 30%;
+}
+
+.testimonial-right {
+    flex: 40%;
+}
